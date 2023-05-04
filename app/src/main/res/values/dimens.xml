@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Heding_size">24sp</dimen>
+    <dimen name="title">70sp</dimen>
+    <dimen name="Are_you">48sp</dimen>
+    <dimen name="choose_btn">20sp</dimen>
+    <dimen name="addAmount_buttons">16sp</dimen>
+    <dimen name="paymentDetails_buttons">16sp</dimen>
+    <dimen name="Card">24sp</dimen>
+    <dimen name="confirm_buttons">16sp</dimen>
+    <dimen name="home_button">16sp</dimen>
+    <dimen name="summary_size">20sp</dimen>
+    <dimen name="viewD_size">24sp</dimen>
+    <dimen name="enterDetails_size">20sp</dimen>
+    <dimen name="welcome_page">24sp</dimen>
+    <dimen name="addAmount_btnHeight">57dp</dimen>
+    <dimen name="enterCard_height">39dp</dimen>
+    <dimen name="enterCard_width">298dp</dimen>
+    <dimen name="enterCard_spaceWidth">345dp</dimen>
+    <dimen name="enterCard_spaceHeight">40dp</dimen>
+    <dimen name="chooseDonate_btnWidth">300dp</dimen>
+    <dimen name="chooseDonate_btnHeight">65dp</dimen>
+</resources>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2ebf91"
+    tools:context=".MyDonationDetails">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout2"
+        android:layout_width="389dp"
+        android:layout_height="528dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="101dp"
+        android:background="@drawable/round_text_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="158dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="32dp"
+            android:text="Card Number : "
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/Card"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView23"
+            app:layout_constraintEnd_toStartOf="@+id/number1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="233dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginEnd="127dp"
+            android:layout_marginBottom="1dp"
+            android:text="Card Holder's Name : "
+            android:textColor="#000000"
+            android:textSize="@dimen/Card"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/name2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="181dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="53dp"
+            android:text="Amount (LKR) : "
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/Card"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView28"
+            app:layout_constraintEnd_toStartOf="@+id/amount2"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="140dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginEnd="52dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/btn_confrim"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/confirm_buttons"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button6"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="140dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#FF2828"
+            android:text="@string/btn_cancel"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/confirm_buttons"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/date2" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="96dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginBottom="48dp"
+            android:text="Date : "
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/Card"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/button5"
+            app:layout_constraintEnd_toStartOf="@+id/date2"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/number1"
+            android:layout_width="173dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginBottom="34dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView23"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="341dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="33dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView26"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/date2"
+            android:layout_width="193dp"
+            android:layout_height="47dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="45dp"
+            app:layout_constraintBottom_toTopOf="@+id/button5"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/amount2"
+            android:layout_width="149dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginBottom="53dp"
+            app:layout_constraintBottom_toTopOf="@+id/date2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/name2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="229dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="36dp"
+        android:text="@string/heading_confirmDonation"
+        android:textAlignment="center"
+        android:textSize="@dimen/Heding_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/layout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/layout2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+</androidx.constraintlayout.widget.ConstraintLayout>

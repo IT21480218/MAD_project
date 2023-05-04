@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "584404794680",
+    "project_id": "smile-donor-c957c",
+    "storage_bucket": "smile-donor-c957c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584404794680:android:73c04f50102bb45def15cd",
+        "android_client_info": {
+          "package_name": "com.example.smiledoner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584404794680-tjhdh85ltlum4frj1abu9fgtff3l33u0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIV58Dbjp2tK6Inm448tFnHxjO1sr16V4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584404794680-tjhdh85ltlum4frj1abu9fgtff3l33u0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

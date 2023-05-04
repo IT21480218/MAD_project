@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">SmileDonor</string>
+    <string name="title1">SmileDonor</string>
+    <string name="amount">Add Donated Amount</string>
+    <string name="join_now1">join now</string>
+    <string name="Are_you">ARE YOU?</string>
+    <string name="Home_Page">SmileDonor</string>
+    <string name="Hello">Hello Friends</string>
+    <string name="des1">Even your smallest donation can be the biggest gift in someone else\'s life.</string>
+    <string name="Join_us">So Join us................</string>
+    <string name="des2">Providing free food,clothes to the children of Rathnapura Parakrama Vidyalaya</string>
+    <string name="donate_now1">donate now</string>
+    <string name="event1_home">Event 3</string>
+    <string name="choose_type">Choose your donate type</string>
+    <string name="btn_cash">Cash Transfer</string>
+    <string name="btn_foods">Foods</string>
+    <string name="btn_others">Others</string>
+    <string name="heading_addAmount">Add Amount</string>
+    <string name="des3">If you have not entered your card details into system before,</string>
+    <string name="btn_next">next</string>
+    <string name="btn_add">Add Payment details</string>
+    <string name="btn_update" />
+    <string name="btn_delete">delete</string>
+    <string name="heading_myPaymentDetails" />
+    <string name="btn_Update">Update</string>
+    <string name="card_name">Holder\'s Name :</string>
+    <string name="card_Number">Card Number :</string>
+    <string name="card_Date">Exp.Date :</string>
+    <string name="card_cvv">CVV :</string>
+    <string name="heading_confirmDonation">Confirm Donation</string>
+    <string name="btn_confrim">confirm</string>
+    <string name="btn_cancel">cancel</string>
+    <string name="heading_summary">Summary of All Transactions</string>
+    <string name="summary_danators">Number of Donators : 459</string>
+    <string name="summary_fullAmount">Full Amount : LKR.500,000</string>
+    <string name="summary_current">Full Amount : LKR.500,000</string>
+    <string name="summary_currentAmount">Current Amount : LKR.350,000</string>
+    <string name="summary_required">Required Amount : LKR.150,000</string>
+    <string name="heading_viewDonations">View Donations</string>
+    <string name="ViewD_amount">Donated Amount : LKR 5000</string>
+    <string name="ViewD_Date">Donation Date : 15/03/2023</string>
+    <string name="heading_cashTransfer">Cash Transfer</string>
+    <string name="Enter_details">Enter your card details</string>
+    <string name="enter_number">Card Number</string>
+    <string name="enter_name">Card Holder\'s Name</string>
+    <string name="enter_date">Exp. Date</string>
+    <string name="enter_cvv">CVV</string>
+    <string name="btn_saveDtails">save details</string>
+    <string name="viewD_TYPE">Donation Type : Cash Transfer</string>
+    <string name="btn_donator">Donator</string>
+    <string name="btn_seller">Seller</string>
+    <string name="welcome_page">Welcome To SmileDonor</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+</resources>

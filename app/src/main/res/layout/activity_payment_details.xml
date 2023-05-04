@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4cb7a5"
+    tools:context=".PaymentDetails">
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="18dp"
+        android:text="@string/heading_cashTransfer"
+        android:textAlignment="center"
+        android:textSize="@dimen/Heding_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="51dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="27dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="388dp"
+        android:layout_height="551dp"
+
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/round_text_bar"
+        app:barrierMargin="@dimen/material_emphasis_high_type"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="363dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/Enter_details"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView13"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="@dimen/enterCard_width"
+            android:layout_height="@dimen/enterCard_height"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="65dp"
+            android:autoLink="all|web"
+            android:fontFamily="sans-serif-thin"
+            android:text="@string/enter_number"
+            android:textAllCaps="false"
+            android:textSize="@dimen/enterDetails_size"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/card_number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/card_number"
+            android:layout_width="@dimen/enterCard_spaceWidth"
+            android:layout_height="@dimen/enterCard_spaceHeight"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="23dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/textView14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="@dimen/enterCard_width"
+            android:layout_height="@dimen/enterCard_height"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="65dp"
+            android:fontFamily="sans-serif-thin"
+            android:text="@string/enter_name"
+            android:textAlignment="viewStart"
+            android:textSize="@dimen/enterDetails_size"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/card_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/card_name"
+            android:layout_width="@dimen/enterCard_spaceWidth"
+            android:layout_height="@dimen/enterCard_spaceHeight"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="23dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/textView15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="@dimen/enterCard_width"
+            android:layout_height="@dimen/enterCard_height"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="69dp"
+            android:fontFamily="sans-serif-thin"
+            android:text="@string/enter_date"
+            android:textAlignment="viewStart"
+            android:textSize="@dimen/enterDetails_size"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/card_date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/card_date"
+            android:layout_width="@dimen/enterCard_spaceWidth"
+            android:layout_height="@dimen/enterCard_spaceHeight"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="23dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/textView16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="@dimen/enterCard_width"
+            android:layout_height="@dimen/enterCard_height"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="64dp"
+            android:fontFamily="sans-serif-thin"
+            android:text="@string/enter_cvv"
+            android:textAlignment="viewStart"
+            android:textSize="@dimen/enterDetails_size"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/card_cvv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/card_cvv"
+            android:layout_width="@dimen/enterCard_spaceWidth"
+            android:layout_height="@dimen/enterCard_spaceHeight"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="27dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/button"
+        style="@android:style/Widget.Material.Light.Button.Small"
+        android:layout_width="196dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="34dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/btn_saveDtails"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

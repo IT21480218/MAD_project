@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:textAlignment="center"
+    tools:context=".SmileDonor">
+
+
+    <TextView
+        android:id="@+id/AreYou"
+        style="@style/Widget.AppCompat.TextView"
+        android:layout_width="345dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="13dp"
+        android:scrollbarStyle="outsideInset"
+        android:text="@string/Are_you"
+        android:textAlignment="center"
+        android:textSize="@dimen/Are_you"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/man"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnSeller"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="228dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="91dp"
+        android:text="@string/btn_seller"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/welcome_page"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnDonator"
+        style="@style/Widget.Material3.Button.Icon"
+        android:layout_width="228dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="89dp"
+        android:text="@string/btn_donator"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/welcome_page"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnSeller"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/man"
+        android:layout_width="187dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="76dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnDonator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/man2" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="406dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="17dp"
+        android:fontFamily="@font/font5"
+        android:text="@string/welcome_page"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/AreYou"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

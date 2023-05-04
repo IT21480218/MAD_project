@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s2"
+    android:visibility="visible"
+    tools:context=".ChooseDonte">
+
+    <TextView
+        android:id="@+id/chooseType"
+        android:layout_width="363dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="115dp"
+        android:text="@string/choose_type"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="none"
+        app:flow_horizontalAlign="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCash"
+        android:layout_width="@dimen/chooseDonate_btnWidth"
+        android:layout_height="@dimen/chooseDonate_btnHeight"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="66dp"
+        android:text="@string/btn_cash"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnFood"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnFood"
+        android:layout_width="@dimen/chooseDonate_btnWidth"
+        android:layout_height="@dimen/chooseDonate_btnHeight"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="60dp"
+        android:text="@string/btn_foods"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/choose_btn"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnOther"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnOther"
+        android:layout_width="@dimen/chooseDonate_btnWidth"
+        android:layout_height="@dimen/chooseDonate_btnHeight"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="63dp"
+        android:scrollbarSize="@dimen/cardview_compat_inset_shadow"
+        android:text="@string/btn_others"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/choose_btn"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="363dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="85dp"
+        android:text="............................................................."
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnCash"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

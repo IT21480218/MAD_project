@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="profile"
+        >
+        <menu>
+            <item
+                android:id="@+id/card"
+                android:title="View Payment Details"
+                android:icon="@drawable/baseline_credit_card_24"
+
+                />
+            <item
+                android:id="@+id/summary"
+                android:title="View Donations"
+                android:icon="@drawable/baseline_sticky_note_2_24"
+                />
+
+            <item
+                android:id="@+id/notification"
+                android:title="Notifications"
+                android:icon="@drawable/bell"
+                />
+
+
+        </menu>
+
+    </item>
+    <item
+        android:title="cash">
+    </item>
+
+    <item
+        android:title="Food">
+    </item>
+
+    <item
+        android:title="Clothes">
+    </item>
+
+
+
+
+
+
+</menu>

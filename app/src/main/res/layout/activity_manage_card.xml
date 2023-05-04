@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4cb7a5"
+    tools:context=".ManageCard">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="389dp"
+        android:layout_height="545dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="59dp"
+        android:background="@drawable/round_text_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="180dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="71dp"
+            android:layout_marginBottom="45dp"
+            android:text="@string/card_name"
+            android:textAlignment="textStart"
+            android:textSize="@dimen/Card"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView10"
+            app:layout_constraintEnd_toStartOf="@+id/cardname2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="150dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="46dp"
+            android:text="@string/card_Date"
+            android:textAlignment="textStart"
+            android:textSize="@dimen/Card"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView18"
+            app:layout_constraintEnd_toStartOf="@+id/expdate2"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="150dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="57dp"
+            android:text="@string/card_cvv"
+            android:textAlignment="textStart"
+            android:textSize="@dimen/Card"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/btnUpdate"
+            app:layout_constraintEnd_toStartOf="@+id/cvv2"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="170dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginBottom="48dp"
+            android:text="@string/card_Number"
+            android:textAlignment="textStart"
+            android:textSize="@dimen/Card"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView17"
+            app:layout_constraintEnd_toStartOf="@+id/no2"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="14dp"
+            android:background="@color/delete"
+            android:text="@string/btn_Update"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/paymentDetails_buttons"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/button3"
+            app:layout_constraintEnd_toStartOf="@+id/button2"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="9dp"
+            android:backgroundTint="#FF2828"
+            android:text="@string/btn_delete"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/paymentDetails_buttons"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/button3"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/cardname2"
+            android:layout_width="172dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="71dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="45dp"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/no2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/no2"
+            android:layout_width="190dp"
+            android:layout_height="37dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="48dp"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/expdate2"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/expdate2"
+            android:layout_width="137dp"
+            android:layout_height="37dp"
+            android:layout_marginEnd="66dp"
+            android:layout_marginBottom="46dp"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/cvv2"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/cvv2"
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:layout_marginEnd="103dp"
+            android:layout_marginBottom="52dp"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/button2"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="16dp"
+            android:text="save"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="13dp"
+        android:text="My Payment Details"
+        android:textAlignment="center"
+        android:textSize="@dimen/Heding_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.295"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="57dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
